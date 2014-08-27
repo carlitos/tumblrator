@@ -12,6 +12,17 @@
 		764B0B7F19AD7883007C6C6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764B0B7E19AD7883007C6C6A /* Images.xcassets */; };
 		764B0B8219AD7883007C6C6A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764B0B8019AD7883007C6C6A /* MainMenu.xib */; };
 		764B0B8E19AD7883007C6C6A /* TumblratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 764B0B8D19AD7883007C6C6A /* TumblratorTests.m */; };
+		764B0BAF19AE7565007C6C6A /* TMTumblrActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 764B0B9A19AE7564007C6C6A /* TMTumblrActivity.m */; };
+		764B0BB019AE7565007C6C6A /* UIActivityTumblr.png in Resources */ = {isa = PBXBuildFile; fileRef = 764B0B9B19AE7564007C6C6A /* UIActivityTumblr.png */; };
+		764B0BB119AE7565007C6C6A /* UIActivityTumblr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 764B0B9C19AE7564007C6C6A /* UIActivityTumblr@2x.png */; };
+		764B0BB219AE7565007C6C6A /* UIActivityTumblr@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 764B0B9D19AE7564007C6C6A /* UIActivityTumblr@2x~ipad.png */; };
+		764B0BB319AE7565007C6C6A /* UIActivityTumblr~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 764B0B9E19AE7564007C6C6A /* UIActivityTumblr~ipad.png */; };
+		764B0BB419AE7565007C6C6A /* UIActivityTumblr~ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 764B0B9F19AE7564007C6C6A /* UIActivityTumblr~ipad@2x.png */; };
+		764B0BB519AE7565007C6C6A /* TMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 764B0BA219AE7564007C6C6A /* TMAPIClient.m */; };
+		764B0BB619AE7565007C6C6A /* TMTumblrAppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 764B0BA519AE7564007C6C6A /* TMTumblrAppClient.m */; };
+		764B0BB719AE7565007C6C6A /* TMOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 764B0BA819AE7564007C6C6A /* TMOAuth.m */; };
+		764B0BB819AE7565007C6C6A /* TMTumblrAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 764B0BAA19AE7564007C6C6A /* TMTumblrAuthenticator.m */; };
+		764B0BB919AE7565007C6C6A /* TMSDKFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 764B0BAD19AE7564007C6C6A /* TMSDKFunctions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,24 @@
 		764B0B8719AD7883007C6C6A /* TumblratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		764B0B8C19AD7883007C6C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		764B0B8D19AD7883007C6C6A /* TumblratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TumblratorTests.m; sourceTree = "<group>"; };
+		764B0B9919AE7564007C6C6A /* TMTumblrActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMTumblrActivity.h; sourceTree = "<group>"; };
+		764B0B9A19AE7564007C6C6A /* TMTumblrActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMTumblrActivity.m; sourceTree = "<group>"; };
+		764B0B9B19AE7564007C6C6A /* UIActivityTumblr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIActivityTumblr.png; sourceTree = "<group>"; };
+		764B0B9C19AE7564007C6C6A /* UIActivityTumblr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIActivityTumblr@2x.png"; sourceTree = "<group>"; };
+		764B0B9D19AE7564007C6C6A /* UIActivityTumblr@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIActivityTumblr@2x~ipad.png"; sourceTree = "<group>"; };
+		764B0B9E19AE7564007C6C6A /* UIActivityTumblr~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIActivityTumblr~ipad.png"; sourceTree = "<group>"; };
+		764B0B9F19AE7564007C6C6A /* UIActivityTumblr~ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIActivityTumblr~ipad@2x.png"; sourceTree = "<group>"; };
+		764B0BA119AE7564007C6C6A /* TMAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAPIClient.h; sourceTree = "<group>"; };
+		764B0BA219AE7564007C6C6A /* TMAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAPIClient.m; sourceTree = "<group>"; };
+		764B0BA419AE7564007C6C6A /* TMTumblrAppClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMTumblrAppClient.h; sourceTree = "<group>"; };
+		764B0BA519AE7564007C6C6A /* TMTumblrAppClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMTumblrAppClient.m; sourceTree = "<group>"; };
+		764B0BA719AE7564007C6C6A /* TMOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOAuth.h; sourceTree = "<group>"; };
+		764B0BA819AE7564007C6C6A /* TMOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOAuth.m; sourceTree = "<group>"; };
+		764B0BA919AE7564007C6C6A /* TMTumblrAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMTumblrAuthenticator.h; sourceTree = "<group>"; };
+		764B0BAA19AE7564007C6C6A /* TMTumblrAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMTumblrAuthenticator.m; sourceTree = "<group>"; };
+		764B0BAC19AE7564007C6C6A /* TMSDKFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSDKFunctions.h; sourceTree = "<group>"; };
+		764B0BAD19AE7564007C6C6A /* TMSDKFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSDKFunctions.m; sourceTree = "<group>"; };
+		764B0BAE19AE7564007C6C6A /* TMTumblrSDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TMTumblrSDK-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +109,7 @@
 				764B0B7C19AD7883007C6C6A /* AppDelegate.m */,
 				764B0B7E19AD7883007C6C6A /* Images.xcassets */,
 				764B0B8019AD7883007C6C6A /* MainMenu.xib */,
+				764B0B9719AE7564007C6C6A /* TMTumblrSDK */,
 				764B0B7719AD7883007C6C6A /* Supporting Files */,
 			);
 			path = Tumblrator;
@@ -109,6 +139,71 @@
 				764B0B8C19AD7883007C6C6A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		764B0B9719AE7564007C6C6A /* TMTumblrSDK */ = {
+			isa = PBXGroup;
+			children = (
+				764B0B9819AE7564007C6C6A /* Activity */,
+				764B0BA019AE7564007C6C6A /* APIClient */,
+				764B0BA319AE7564007C6C6A /* AppClient */,
+				764B0BA619AE7564007C6C6A /* Authentication */,
+				764B0BAB19AE7564007C6C6A /* Core */,
+				764B0BAE19AE7564007C6C6A /* TMTumblrSDK-Prefix.pch */,
+			);
+			path = TMTumblrSDK;
+			sourceTree = "<group>";
+		};
+		764B0B9819AE7564007C6C6A /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				764B0B9919AE7564007C6C6A /* TMTumblrActivity.h */,
+				764B0B9A19AE7564007C6C6A /* TMTumblrActivity.m */,
+				764B0B9B19AE7564007C6C6A /* UIActivityTumblr.png */,
+				764B0B9C19AE7564007C6C6A /* UIActivityTumblr@2x.png */,
+				764B0B9D19AE7564007C6C6A /* UIActivityTumblr@2x~ipad.png */,
+				764B0B9E19AE7564007C6C6A /* UIActivityTumblr~ipad.png */,
+				764B0B9F19AE7564007C6C6A /* UIActivityTumblr~ipad@2x.png */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		764B0BA019AE7564007C6C6A /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				764B0BA119AE7564007C6C6A /* TMAPIClient.h */,
+				764B0BA219AE7564007C6C6A /* TMAPIClient.m */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		764B0BA319AE7564007C6C6A /* AppClient */ = {
+			isa = PBXGroup;
+			children = (
+				764B0BA419AE7564007C6C6A /* TMTumblrAppClient.h */,
+				764B0BA519AE7564007C6C6A /* TMTumblrAppClient.m */,
+			);
+			path = AppClient;
+			sourceTree = "<group>";
+		};
+		764B0BA619AE7564007C6C6A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				764B0BA719AE7564007C6C6A /* TMOAuth.h */,
+				764B0BA819AE7564007C6C6A /* TMOAuth.m */,
+				764B0BA919AE7564007C6C6A /* TMTumblrAuthenticator.h */,
+				764B0BAA19AE7564007C6C6A /* TMTumblrAuthenticator.m */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		764B0BAB19AE7564007C6C6A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				764B0BAC19AE7564007C6C6A /* TMSDKFunctions.h */,
+				764B0BAD19AE7564007C6C6A /* TMSDKFunctions.m */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,8 +286,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764B0BB419AE7565007C6C6A /* UIActivityTumblr~ipad@2x.png in Resources */,
 				764B0B7F19AD7883007C6C6A /* Images.xcassets in Resources */,
+				764B0BB119AE7565007C6C6A /* UIActivityTumblr@2x.png in Resources */,
 				764B0B8219AD7883007C6C6A /* MainMenu.xib in Resources */,
+				764B0BB219AE7565007C6C6A /* UIActivityTumblr@2x~ipad.png in Resources */,
+				764B0BB019AE7565007C6C6A /* UIActivityTumblr.png in Resources */,
+				764B0BB319AE7565007C6C6A /* UIActivityTumblr~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764B0BAF19AE7565007C6C6A /* TMTumblrActivity.m in Sources */,
+				764B0BB619AE7565007C6C6A /* TMTumblrAppClient.m in Sources */,
 				764B0B7D19AD7883007C6C6A /* AppDelegate.m in Sources */,
+				764B0BB519AE7565007C6C6A /* TMAPIClient.m in Sources */,
+				764B0BB719AE7565007C6C6A /* TMOAuth.m in Sources */,
+				764B0BB819AE7565007C6C6A /* TMTumblrAuthenticator.m in Sources */,
 				764B0B7A19AD7883007C6C6A /* main.m in Sources */,
+				764B0BB919AE7565007C6C6A /* TMSDKFunctions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
